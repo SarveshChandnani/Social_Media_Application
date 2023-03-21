@@ -1,0 +1,113 @@
+.rightbar{
+    flex: 3.5;
+}
+
+.righbarWrapper{
+
+    padding: 20px 20px 0 0;
+
+}
+
+.BirthdayContainer{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.giftImg{
+  
+height: 32px;
+width: 32px;
+
+
+}
+.BirthdayText{
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+b{
+    cursor: pointer;
+}
+
+.OnlineFriendsList{
+    margin-top: 20px;
+}
+.OnlineFriends{
+    list-style: none;
+}
+
+
+
+.AdImage{
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+}
+.RightBarProfile{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.OnlineFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+    
+.Online{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: limegreen;
+    object-fit: cover;
+    margin-bottom: 34px;
+    top: -2;
+    right: 0;
+}
+.ListContainer{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.userFriendImg{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.infoTitle{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.infoItem{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.infoKey{
+    font-weight: 500;
+}
+.infoValue{
+    font-weight: 300;
+}
+.userFriends{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.userFriend{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.userFriendsTitle{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
